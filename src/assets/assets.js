@@ -32,7 +32,7 @@ import asset7 from './asset7.JPG'
 import p_img_founder from './p_img_founder.jpg'
 
 import logo from './logo.png'
-import hero_img from './hero_img.jpg'
+// import hero_img from './hero_img.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -57,7 +57,7 @@ import cross_icon from './cross_icon.png'
 export const assets = {
     logo,
     border,
-    hero_img,
+    // hero_img,
     cart_icon,
     dropdown_icon,
     exchange_icon,
