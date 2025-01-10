@@ -61,7 +61,7 @@ const Hero2 = () => {
           >
             {isLoading ? (
               <div
-                className="w-4 h-4 border-2 border-[#D4AF37] border-t-transparent rounded-full animate-spin"
+                className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"
                 role="status"
               ></div>
             ) : (
