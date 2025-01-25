@@ -5,6 +5,19 @@ import { assets } from '../assets/assets';
 const About = () => {
   return (
     <>
+    <div className="relative">
+        {/* Scrolling Background Section */}
+        <div
+          className="h-[85vh] bg-fixed bg-cover bg-center flex items-center justify-center"
+          style={{
+            backgroundImage: `url(${assets.asset6})`, // Replace with your desired image
+          }}
+        >
+          <h1 className="text-white prata-regular text-center text-4xl sm:text-6xl font-light px-8 py-4 rounded-md">
+            Discover the Art of Jaalkaar
+          </h1>
+        </div>
+      </div>
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[2vw] py-8">
       {/* About Jaalkaar Section */}
       <div className="mt-8">
@@ -31,7 +44,7 @@ const About = () => {
 
       {/* About Bushra Section */}
       <div className="mt-14">
-        <Title text1={'About'} text2={'Bushra'} />
+        <Title text1={'About'} text2={'Founder'} />
         <div className="flex flex-col lg:flex-row gap-12 items-center justify-center lg:gap-8 transition-all">
           {/* Image Section */}
           <div className="relative overflow-hidden rounded-tl-[100px] rounded-br-[100px] w-full lg:w-[40rem] lg:my-12">

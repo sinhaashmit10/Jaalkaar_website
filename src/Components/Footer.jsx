@@ -26,12 +26,18 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        <div className='flex flex-row justify-center mb-2 gap-3'>
-            <img className='w-7' src={assets.facebook_logo} alt="" />
-            <img className='w-8' src={assets.instagram_logo} alt="" />
-            <img className='w-10' src={assets.youtube_logo} alt="" />
-            <img className='w-9' src={assets.linkedin_logo} alt="" />
+        <div className='flex flex-row items-center justify-center mb-2 gap-3'>
+            <a href="https://www.instagram.com/jaalkaar_/" target="_blank" rel="noopener noreferrer">
+                <img className='w-8' src={assets.instagram_logo} alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                <img className='w-9' src={assets.linkedin_logo} alt="LinkedIn" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61572210685233" target="_blank" rel="noopener noreferrer">
+                <img className='w-7' src={assets.facebook_logo} alt="Facebook" />
+            </a>
         </div>
+
         <div>
             <hr />
             <p className='py-5 text-sm text-center text-gray-600'>Copyright 2024 @ JaalKaar - All Rights Reserved</p>

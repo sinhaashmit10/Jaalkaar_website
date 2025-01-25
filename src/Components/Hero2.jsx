@@ -16,12 +16,12 @@ const Hero2 = () => {
   return (
     <div>
       {/* Announcement Banner */}
-      <div className="bg-[#D4AF37] w-full h-10 text-[#800020] flex items-center justify-center text-center p-2">
+      {/* <div className="bg-[#D4AF37] w-full h-10 text-[#800020] flex items-center justify-center text-center p-2">
         <h4 className="text-sm">
           Enjoy a flat 17% off on all items—discount applied at checkout, no
           hassle!
         </h4>
-      </div>
+      </div> */}
 
       {/* Hero Section */}
       <div className="relative w-full h-screen flex items-center justify-start px-6 lg:px-20">

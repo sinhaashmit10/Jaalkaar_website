@@ -73,9 +73,21 @@ const Collection = () => {
 
   return (
     <div className='flex flex-col gap-2 border-t'>
-      <div className='min-w-60 h-full w-full p-16 bg-[#800020] flex flex-col items-center'>
-        <h1 className='text-5xl prata-regular text-center text-[#D4AF37] font-bold mb-6'>Our Collection</h1>
-        <p className='text-white text-center w-[90vw] px-10 text-lg'>Welcome to Jaalkaar's Collection – a curated showcase of timeless elegance and exquisite craftsmanship. Each saree in our collection tells a unique story, blending tradition with contemporary aesthetics. From the intricate patterns of Bihar's Bavan Buti sarees to the rich textures and vibrant hues, our designs celebrate India's rich cultural heritage.</p>
+      <div className="relative">
+        {/* Scrolling Background Section */}
+        <div
+          className="h-[85vh] bg-fixed bg-cover bg-center flex items-center justify-center"
+          style={{
+            backgroundImage: `url(${assets.asset6})`, // Replace with your desired image
+          }}
+        >
+          <div className='flex justify-start'>
+            <div className='min-w-60 w-full sm:w-3/4 lg:w-1/2 p-16 flex flex-col'>
+              <h1 className='text-5xl prata-regular text-[#D4AF37] font-bold mb-6'>Our Collection</h1>
+              <p className='text-white text-lg'>Welcome to Jaalkaar's Collection – a curated showcase of timeless elegance and exquisite craftsmanship. Each saree in our collection tells a unique story, blending tradition with contemporary aesthetics. From the intricate patterns of Bihar's Bavan Buti sarees to the rich textures and vibrant hues, our designs celebrate India's rich cultural heritage.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div className='flex flex-col sm:flex-row gap-1 px-10 sm:gap-10 border-t'>
         {/* Filter Options */}

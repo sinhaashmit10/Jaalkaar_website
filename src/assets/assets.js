@@ -27,12 +27,12 @@ import asset2 from './asset2.jpg'
 import asset3 from './asset3.jpg'
 import asset4 from './asset4.jpeg'
 import asset5 from './asset5.jpg'
-import asset6 from './asset6.JPG'
-import asset7 from './asset7.JPG'
+import asset6 from './asset6.jpg'
+import asset7 from './asset7.jpg'
 import p_img_founder from './p_img_founder.jpg'
 
 import logo from './logo.png'
-// import hero_img from './hero_img.jpg'
+import hero_img from './hero_img.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -44,7 +44,7 @@ import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
 import support_img from './support_img.png'
 import menu_icon from './menu_icon.png'
-import about_img from './about_img.JPG'
+import about_img from './about_img.jpg'
 import contact_img from './contact_img.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
@@ -57,7 +57,7 @@ import cross_icon from './cross_icon.png'
 export const assets = {
     logo,
     border,
-    // hero_img,
+    hero_img,
     cart_icon,
     dropdown_icon,
     exchange_icon,
