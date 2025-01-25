@@ -27,7 +27,7 @@ import asset2 from './asset2.jpg'
 import asset3 from './asset3.jpg'
 import asset4 from './asset4.jpeg'
 import asset5 from './asset5.jpg'
-import asset6 from './asset6.jpg'
+import asset6 from './asset6.JPG'
 import asset7 from './asset7.jpg'
 import p_img_founder from './p_img_founder.jpg'
 
